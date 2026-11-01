@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+        content="width=device-width, intial-scale=1.0">
+        <title>NECO FORM</title>
+        <link rel="icon" type="jpeg" href="img1.jpeg">
+        <style>
+            .dv1{
+                display: inline-block;
+                background-color: white;
+                margin-left: 30px;
+                height: 600px;
+                width: 600px;
+            }
+            .dv2{
+                padding-right: 100px;
+            }
+            .lb{
+                color: blue;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: medium;
+                display: block;
+            }
+            .lb2{
+                color: blue;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: medium;
+                display: block;
+                margin-top: 10px;
+            }
+            .in{
+                height: 30px;
+                width: 350px;
+                display: block;
+                border-color: blue;
+            }
+            .in1{
+                height: 30px;
+                width: 350px;
+                display: inline;
+                border-color: blue;
+            }
+            .dform{
+                margin-left: 30px;
+            }
+            .H{
+                margin-left: 5px;
+                color: blue;
+            }
+            .ddd{
+                display: inline-block;
+                margin-left: 15px;
+            }
+            .bb{
+                color: white;
+                background-color: gold;
+                border: none;
+                margin-left: 400px;
+                height: 32px;
+                width: 120px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                font-size: medium;
+                cursor: pointer;
+            }
+            .im1{
+                height: 50px;
+                width: 50px;
+                border-radius: 30px;
+                display: inline-block;
+                margin-left: 50px;
+                margin-top: 50px;
+            }
+            .a{
+                color: red;
+                padding-left: 5px;
+                position: sticky;
+                top: 0;
+                background-color: white;
+            }
+            .a:hover{
+                color: gold;
+                text-decoration: none;
+            }
+            .a:active{
+                opacity: 0.20;
+            }
+            .bb{
+                color: white;
+                background-color: gold;
+                border: none;
+                margin-left: 300px;
+                margin-top: 20px;
+                height: 32px;
+                width: 120px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                font-size: medium;
+                cursor: pointer;
+            }
+            .bb:hover{
+                color: white;
+                background-color: black;
+                width: 130px;
+                box-shadow: 5px 5px 5px gold;
+            }
+            .bb:active{
+                opacity: 0.20;
+            }
+            .aud{
+                display: block;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <h2 class="a"><a class="a" href="exam.html" target="_blank">Back to Exam Form</a></h2>
+        <div class="dv1">
+            <div class="dv2">
+            <img class="im1" src="img1.jpeg">
+            <h3 class="HH">REGISTER FOR YOUR NECO</h3>
+            <p class="H">Fill your NECO form</p>
+            <form id="myForm3" action="https://formsubmit.co/thelearningcenterlagos@gmail.com" method="post">
+            <div class="dform">
+            <label class="lb">First Name</label>
+            <input class="in" type="text"
+            placeholder="Enter your first name"
+            required>
+            <label class="lb2">Middle Name</label>
+            <input class="in" type="text"
+            placeholder="Enter your middle name"
+            required>
+            <label class="lb2">Last Name</label>
+            <input class="in" type="text"
+            placeholder="Enter your last name"
+            required>
+            <label class="lb2">Date of Birth</label>
+            <input class="in" type="date"
+            placeholder="Enter your "
+            required>
+            <label class="lb2">Phone Number</label>
+            <input class="in" type="tel"
+            placeholder="Enter your phone number" inputmode="numeric" maxlength="11" pattern="[0-9]{11}" title="phone number must be 11 digit"
+            required>
+            <label class="lb2">Email</label>
+            <input class="in" type="mail"
+            placeholder="Enter your email" inputmode="email" title="Enter a valid email"
+            required>
+            <label class="lb2">National ID</label>
+            <input class="in" type="tel" name="NIN"
+            placeholder="Enter your NIN" inputmode="numeric" maxlength="11" pattern="[0-9]{11}" title="NIN must be 11 digit"
+            required>
+            <label class="lb2">Gender</label>
+            <select class="in" name="option"><option>Male</option>
+            <option>Female</option>
+            </select>
+            <label class="lb2">Department</label>
+            <select class="in" name="option"><option>Science</option>
+            <option>Commercial</option>
+            <option>Art</option>
+            </select>
+            <button class="bb">SUBMIT</button>
+            </form>
+        </div>
+        <script>
+            document.getElementById("myForm3").addEventListener("submit", function(e) {
+            e.preventDefault();
+            alert("Thanks, we will get to you as soon as we receive your form!");
+            this.reset();
+            });
+        </script>
+    </body>
+</html>
