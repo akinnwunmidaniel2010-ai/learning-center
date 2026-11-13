@@ -1,0 +1,106 @@
+.dv1{
+                display: inline-block;
+                background-color: white;
+                margin-left: 30px;
+                height: 600px;
+                width: 600px;
+            }
+            .dv2{
+                padding-right: 100px;
+            }
+            .lb{
+                color: blue;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: medium;
+                display: block;
+            }
+            .lb2{
+                color: blue;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: medium;
+                display: block;
+                margin-top: 10px;
+            }
+            .in{
+                height: 30px;
+                width: 350px;
+                display: block;
+                border-color: blue;
+            }
+            .in1{
+                height: 30px;
+                width: 350px;
+                display: inline;
+                border-color: blue;
+            }
+            .dform{
+                margin-left: 30px;
+            }
+            .H{
+                margin-left: 5px;
+                color: blue;
+            }
+            .ddd{
+                display: inline-block;
+                margin-left: 15px;
+            }
+            .bb{
+                color: white;
+                background-color: gold;
+                border: none;
+                margin-left: 400px;
+                height: 32px;
+                width: 120px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                font-size: medium;
+                cursor: pointer;
+            }
+            .im1{
+                height: 50px;
+                width: 50px;
+                border-radius: 30px;
+                display: inline-block;
+                margin-left: 50px;
+                margin-top: 50px;
+            }
+            .a{
+                color: red;
+                padding-left: 5px;
+                position: sticky;
+                top: 0;
+                background-color: white;
+            }
+            .a:hover{
+                color: gold;
+                text-decoration: none;
+            }
+            .a:active{
+                opacity: 0.20;
+            }
+            .bb{
+                color: white;
+                background-color: gold;
+                border: none;
+                margin-left: 300px;
+                margin-top: 20px;
+                height: 32px;
+                width: 120px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                font-size: medium;
+                cursor: pointer;
+            }
+            .bb:hover{
+                color: white;
+                background-color: black;
+                width: 130px;
+                box-shadow: 5px 5px 5px gold;
+            }
+            .bb:active{
+                opacity: 0.20;
+            }
+            .aud{
+                display: block;
+                
+            }

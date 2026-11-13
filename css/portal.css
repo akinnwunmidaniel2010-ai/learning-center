@@ -1,0 +1,153 @@
+body{
+                background-image: url(portal\ background.png);
+            }
+            .a{
+                color: red;
+                height: 35px;
+                width: 180px;
+                display: block;
+                position: sticky;
+                top: 0;
+            }
+            .a:hover{
+                color: gold;
+                text-decoration: none;
+            }
+            .a:active{
+                opacity: 0.20;
+            }
+            .im{
+                height: 50px;
+                width: 50px;
+                border-radius: 30px;
+                display: inline-block;
+                margin-left: 150px;
+                margin-top: 20px;
+            }
+            .im1{
+                height: 50px;
+                width: 50px;
+                border-radius: 30px;
+                display: inline-block;
+                margin-left: 50px;
+                margin-top: 50px;
+            }
+            .h{
+                display: inline-block;
+                color: gold;
+            }
+            .dv{
+                background-color: rgb(73, 73, 223);
+                width: 600px;
+                height: 750px;
+                padding-right: 50px;
+                border-color: black;
+                border-width: 200px;
+                display: inline-block;
+            }
+            .h1{
+                margin-top: 350px;
+                margin-left: 100px;
+                color: white;
+            }
+            .p{
+               margin-left: 100px; 
+               color: white;
+            }
+            .dv1{
+                display: inline-block;
+                background-color: white;
+                margin-left: 50px;
+                margin-top: 15px;
+                height: 750px;
+                width: 600px;
+            }
+            .HH{
+                color: gold;
+                display: inline-block;
+            }
+            .dv2{
+                padding-right: 100px;
+            }
+            .lb{
+                color: blue;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: medium;
+                display: block;
+            }
+            .lb2{
+                color: blue;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: medium;
+                display: block;
+                margin-top: 10px;
+            }
+            .in{
+                height: 30px;
+                width: 350px;
+                display: block;
+                border-color: blue;
+            }
+            .in1{
+                height: 20px;
+                width: 20px;
+                display: block;
+                border-color: blue;
+            }
+            .dform{
+                margin-left: 30px;
+            }
+            .H{
+                margin-left: 150px;
+                color: blue;
+            }
+            .rad{
+                display: inline-block;
+                margin-top: 15px;
+                margin-left: 15px;
+            }
+            .bb{
+                color: white;
+                background-color: gold;
+                border: none;
+                margin-left: 400px;
+                height: 32px;
+                width: 120px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                font-size: medium;
+                cursor: pointer;
+                margin-top: 20px;
+            }
+            .bb:hover{
+                color: white;
+                background-color: black;
+                width: 130px;
+                box-shadow: 5px 5px 5px gold;
+            }
+            .bb:active{
+                opacity: 0.20;
+            }
+            .aud{
+                display: block;
+                
+            }
+            .contaier{
+                display: grid;
+                columns: 0px;
+                row-gap: 0px;
+                grid-template-columns: 1fr 1fr;
+            }  
+            @media(max-width: 1000px){
+                .contaier{
+                    display: grid;
+                    grid-template-columns: 1fr;
+                } 
+                .dv1{
+                    display: inline-block;
+                    background-color: white;
+                    margin-left: 5px;
+                    height: 750px;
+                    width: 600px;
+                }    
+            }

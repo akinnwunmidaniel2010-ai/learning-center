@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+        content="width=device-width, intial-scale=1.0">
+        <title>GCE WAEC/NECO FORM</title>
+        <link rel="icon" type="jpeg" href="image/img1.jpeg">
+        <link rel="stylesheet" href="css/gce.css">
+    </head>
+    <body>
+        <h2 class="a"><a class="a" href="exam.html" target="_blank">Back to Exam Form</a></h2>
+        <div class="dv1">
+            <div class="dv2">
+            <img class="im1" src="image/img1.jpeg">
+            <h3 class="HH">REGISTER FOR YOUR GCE</h3>
+            <p class="H">Fill your GCE form</p>
+            <form id="myForm1" action="https://formsubmit.co/akinleye021@gmail.com" method="post">
+            <div class="dform">
+            <label class="lb">First Name</label>
+            <input class="in" type="text"
+            placeholder="Enter your first name"
+            required>
+            <label class="lb2">Middle Name</label>
+            <input class="in" type="text"
+            placeholder="Enter your middle name"
+            required>
+            <label class="lb2">Last Name</label>
+            <input class="in" type="text"
+            placeholder="Enter your last name"
+            required>
+            <label class="lb2">Date of Birth</label>
+            <input class="in" type="date"
+            placeholder="Enter your "
+            required>
+            <label class="lb2">Phone Number</label>
+            <input class="in" type="tel"
+            placeholder="Enter your phone number" id="phone" name="phone" inputmode="numeric" maxlength="11"
+             pattern="[0-9]{11}" title="phone number must be 11 digit"
+            required>
+            <label class="lb2">Email</label>
+            <input class="in" type="mail"
+            placeholder="Enter your email" inputmode="email" title="Enter a valid email"
+            required>
+            <label class="lb2">National ID</label>
+            <input class="in" type="tel" name="NIN"
+            placeholder="Enter your NIN" inputmode="numeric" maxlength="11" pattern="[0-9]{11}" title="NIN must be 11 digit"
+            required>
+            <label class="lb2">Gender</label>
+            <select class="in" name="option"><option>Male</option>
+            <option>Female</option>
+            </select>
+            <label class="lb2">Gce Type</label>
+            <select class="in" name="option"><option>Gce-Waec</option>
+            <option>Gce-Neco</option>
+            </select>
+            <label class="lb2">Department</label>
+            <select class="in" name="option"><option>Science</option>
+            <option>Commercial</option>
+            <option>Art</option>
+            </select>
+            <button class="bb">SUBMIT</button>
+            </form>
+        </div>
+        <script>
+            document.getElementById("myForm1").addEventListener("submit", function(e) {
+            e.preventDefault();
+            alert("Thanks, we will get to you as soon as we receive your form!");
+            this.reset();
+            });
+        </script>
+</script>
+    </body>
+</html>

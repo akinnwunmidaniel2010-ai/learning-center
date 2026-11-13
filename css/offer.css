@@ -1,0 +1,83 @@
+            body{
+                background-color: blue;
+            }
+            .h{
+                color: gold;
+                margin-left: 600px;
+                display: inline-block;
+            }
+            .hh{
+                color: white;
+                margin-left: 500px;
+            }
+            .im{
+                height: 50px;
+                width: 50px;
+                border-radius: 30px;
+                display: inline-block;
+                margin-top: 20px;
+            }
+            .im1{
+                height: 600px;
+                width: 450px;
+            }
+            .lb{
+                display: block;
+                color: gold;
+                font-size: large;
+                font-family: 'Times New Roman', Times, serif;
+                font-weight: bolder;
+            }
+            .dv{
+                display: inline-block;
+                margin-left: 35px;
+            }
+            .dv2{
+                display: inline-block;
+                margin-left: 30px;
+            }
+            .imm{
+                width: 800px;
+                height: 500px;
+                margin-top: 25px;
+                margin-left: 35px;
+            }
+            .a{
+                color: red;
+                height: 35px;
+                width: 180px;
+                padding-left: 5px;
+                position: sticky;
+                top: 0;
+                background-color: blue;
+            }
+            .a:hover{
+                color: gold;
+                text-decoration: none;
+            }
+            .a:active{
+                opacity: 0.20;
+            }
+            @media(max-width: 1000px){
+                .h{
+                    color: gold;
+                    margin-left: 300px;
+                    display: inline-block;
+                    width: 300px;
+                }
+                .hh{
+                    color: white;
+                    margin-left: 200px;
+                    width: 600px;
+                }
+                .dv{
+                    display: inline-block;
+                    margin-left: 35px;
+                    margin-top: 35px;
+                }
+                .dv2{
+                    display: inline-block;
+                    margin-left: 30px;
+                    margin-top: 35px;
+                }
+            }
